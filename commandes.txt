@@ -1,0 +1,43 @@
+COMMANDES LINUX
+
+pwd : Affiche le chemin absolu du répertoir courant
+cd [répertoire]: Permet de changer de dossier (change directory)
+ls [fichiers]: Permet de lister tous les fichiers et dossier du dossier courant (list)
+ls -l : Affichage détaillé
+ls -a : Affiche les fichiers cachés
+mkdir [répertoire]: Permet de créer un dossier (make directory)
+rmdir [répertoire]: Supprime le répertoire
+cat : Affiche à l'écran le contenu du fichier passé en paramètre.Ex cat monFic.txt
+cp <source> <destination> : copie fichier source vers destination
+mv <source> <destination> : déplace fichier source vers destination
+
+
+Commandes terminal linux  
+Shift-Inser : coller
+TAB : complétion des commandes - Taper le début de la commande et tab écrit le reste.
+
+Vocabulaire GIT
+Working directory : Répertoire de travail
+Index / Staging area : Version en préparation pour un futur commit
+
+origin :  branche principale du dépôt distant
+master : branche principale du dépôt local
+
+
+
+COMMANDES GIT
+
+git init : Initialise un dépot git dans un répertoire projet existant
+
+git clone : Initialise un dépot git depuis un autre dépot distant
+
+git add : Indique à GIT que l'on veut certains changement dans le prochain commit.
+	Active le suivi par GIT (Passage de l'état Untracked à Tracked )
+
+git commit -m "message" : Permet de créer une nouvelle version 
+
+git push origin master: Envoi d'une branche sur un serveur distant
+
+git pull : Récupération d'une branche d'un serveur distant sur le local.
+
+
